@@ -1,0 +1,2 @@
+[corrective] round 0: q=0.350 p_rej=0.260 beta=0.314 eps=0.130 dash=0.030
+[corrective] round 1: q=0.480 p_rej=0.380 beta=0.292 eps=0.220 dash=0.030

@@ -1,0 +1,73 @@
+{
+  "config": {
+    "smoke": false,
+    "student": "Qwen/Qwen2.5-1.5B-Instruct",
+    "backend": "openai",
+    "verifier_model": "gpt-4o-mini",
+    "teacher_model": "gpt-4o-mini",
+    "rounds": 5,
+    "n_eval": 300,
+    "n_batch": 512,
+    "epochs": 3,
+    "lr": 1e-05,
+    "lora_r": 16,
+    "teacher_file": "teacher_32b.json",
+    "gen_bs": 32,
+    "train_bs": 8,
+    "seed": 0,
+    "variants": "corrective",
+    "out": "results_teacher_32b.json"
+  },
+  "runs": {
+    "corrective": [
+      {
+        "q": 0.31,
+        "p_reject": 0.24333333333333335,
+        "beta": 0.27956989247311825,
+        "eps": 0.13666666666666666,
+        "dash": 0.03333333333333333,
+        "t": 0
+      },
+      {
+        "q": 0.41,
+        "p_reject": 0.32,
+        "beta": 0.2601626016260163,
+        "eps": 0.16,
+        "dash": 0.04666666666666667,
+        "t": 1
+      },
+      {
+        "q": 0.4166666666666667,
+        "p_reject": 0.32,
+        "beta": 0.312,
+        "eps": 0.18,
+        "dash": 0.05,
+        "t": 2
+      },
+      {
+        "q": 0.3933333333333333,
+        "p_reject": 0.31666666666666665,
+        "beta": 0.3050847457627119,
+        "eps": 0.17333333333333334,
+        "dash": 0.04666666666666667,
+        "t": 3
+      },
+      {
+        "q": 1.0,
+        "p_reject": 0.5933333333333334,
+        "beta": 0.4066666666666667,
+        "eps": 0.4666666666666667,
+        "dash": 0.04,
+        "t": 4
+      },
+      {
+        "q": 1.0,
+        "p_reject": 0.6133333333333333,
+        "beta": 0.38666666666666666,
+        "eps": 0.44666666666666666,
+        "dash": 0.04,
+        "t": 5
+      }
+    ]
+  }
+}

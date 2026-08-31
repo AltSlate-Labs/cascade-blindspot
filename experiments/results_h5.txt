@@ -1,0 +1,17 @@
+========================================================================
+H5 -- MITIGATION EXCHANGE RATE  (rho=0.7, 20 seeds, 8 rounds)
+========================================================================
+config           ens_m  audit_x   beta0  p_rej_T   floor   cost
+config           ens_m  audit_x   beta0   p_rej        floor   cost
+baseline             1     0.00   0.764   0.087   0.252+/-0.008   1.09
+ensemble m=2         2     0.00   0.585   0.149   0.189+/-0.009   2.15
+ensemble m=3         3     0.00   0.452   0.188   0.155+/-0.007   3.19
+ensemble m=4         4     0.00   0.404   0.205   0.143+/-0.007   4.21
+audit 5%             1     0.05   0.764   0.085   0.239+/-0.008   1.13
+audit 10%            1     0.10   0.764   0.084   0.232+/-0.009   1.18
+audit 20%            1     0.20   0.764   0.082   0.225+/-0.010   1.28
+audit 40%            1     0.40   0.764   0.081   0.216+/-0.007   1.48
+oracle-in-loop      --       --   0.000   0.248   0.000       --
+
+figure -> /Users/dushyant/Workspace/notes/papers/cascade-blindspot/figures/exp_mitigation.pdf
+done.

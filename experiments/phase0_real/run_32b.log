@@ -1,0 +1,21 @@
+device=cuda student=Qwen/Qwen2.5-1.5B-Instruct verifier=gpt-4o-mini gen_bs=32 train_bs=8
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+cached teacher: 2800 solutions; train pool -> 2800
+gsm8k: 2800 train, evaluating on 300 test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6774.58it/s]
+[corrective] round 0: q=0.310 p_rej=0.243 beta=0.280 eps=0.137 dash=0.033
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6605.63it/s]
+[corrective] round 1: q=0.410 p_rej=0.320 beta=0.260 eps=0.160 dash=0.047
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6557.36it/s]
+[corrective] round 2: q=0.417 p_rej=0.320 beta=0.312 eps=0.180 dash=0.050
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6559.82it/s]
+[corrective] round 3: q=0.393 p_rej=0.317 beta=0.305 eps=0.173 dash=0.047
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6746.17it/s]
+[corrective] round 4: q=1.000 p_rej=0.593 beta=0.407 eps=0.467 dash=0.040
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6642.96it/s]
+[corrective] round 5: q=1.000 p_rej=0.613 beta=0.387 eps=0.447 dash=0.040
+[corrective] done in 53.3 min
+
+saved -> results_teacher_32b.json
+plot -> /home/ubuntu/cascade-blindspot/exp_real_scissors.png

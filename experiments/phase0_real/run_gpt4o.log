@@ -1,0 +1,12 @@
+device=cuda student=Qwen/Qwen2.5-1.5B-Instruct verifier=gpt-4o-mini gen_bs=32 train_bs=8
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+gsm8k: 7473 train, evaluating on 300 test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6543.68it/s]
+[corrective] round 0: q=0.320 p_rej=0.253 beta=0.271 eps=0.110 dash=0.037
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6677.44it/s]
+[corrective] round 1: q=1.000 p_rej=0.580 beta=0.420 eps=0.460 dash=0.043
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6724.38it/s]
+[corrective] round 2: q=1.000 p_rej=0.603 beta=0.397 eps=0.427 dash=0.040
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6722.37it/s]
+[corrective] round 3: q=1.000 p_rej=0.613 beta=0.387 eps=0.427 dash=0.043

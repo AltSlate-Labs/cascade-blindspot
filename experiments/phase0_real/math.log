@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+hard MATH L4-5: 200 problems | student=Qwen/Qwen2.5-7B-Instruct
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 6544.13it/s]
+student raw error q on hard MATH: 0.390  (78/200 wrong)
+RESULT {"verifier": "gpt-4o-mini", "q": 0.39, "beta": 0.4231, "blind_mass": 0.165, "p_reject": 0.24}
+RESULT {"verifier": "gpt-4.1", "q": 0.39, "beta": 0.0513, "blind_mass": 0.02, "p_reject": 0.46}
+RESULT {"verifier": "gpt-5-mini", "q": 0.39, "beta": 0.0897, "blind_mass": 0.035, "p_reject": 0.36}
+plot -> exp_beta_vs_verifier_math.png
+done.

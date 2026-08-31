@@ -1,0 +1,28 @@
+device=cuda student=Qwen/Qwen2.5-7B-Instruct verifier=gpt-4o-mini gen_bs=32 train_bs=8
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+gsm8k: 7473 train, evaluating on 300 test
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 6741.78it/s]
+[corrective] round 0: q=0.247 p_rej=0.150 beta=0.486 eps=0.143 dash=0.030
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 6661.84it/s]
+[corrective] round 1: q=0.347 p_rej=0.217 beta=0.433 eps=0.190 dash=0.037
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 6372.98it/s]
+[corrective] round 2: q=0.497 p_rej=0.223 beta=0.564 eps=0.320 dash=0.033
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 6566.40it/s]
+[corrective] round 3: q=0.447 p_rej=0.237 beta=0.522 eps=0.273 dash=0.033
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 6553.45it/s]
+[corrective] round 4: q=0.433 p_rej=0.260 beta=0.446 eps=0.233 dash=0.030
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 6540.49it/s]
+[corrective] round 5: q=0.423 p_rej=0.247 beta=0.480 eps=0.250 dash=0.033
+[corrective] done in 44.5 min
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 6479.53it/s]
+[frozen] round 0: q=0.237 p_rej=0.160 beta=0.408 eps=0.127 dash=0.033
+[frozen] round 1: q=0.250 p_rej=0.167 beta=0.440 eps=0.137 dash=0.037
+[frozen] round 2: q=0.237 p_rej=0.163 beta=0.465 eps=0.140 dash=0.037
+[frozen] round 3: q=0.240 p_rej=0.157 beta=0.458 eps=0.137 dash=0.027
+[frozen] round 4: q=0.253 p_rej=0.157 beta=0.487 eps=0.157 dash=0.033
+[frozen] round 5: q=0.230 p_rej=0.157 beta=0.435 eps=0.137 dash=0.040
+[frozen] done in 12.2 min
+
+saved -> /home/ubuntu/cascade-blindspot/results_real.json
+plot -> /home/ubuntu/cascade-blindspot/exp_real_scissors.png

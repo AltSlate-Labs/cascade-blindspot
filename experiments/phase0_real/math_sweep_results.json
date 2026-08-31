@@ -1,0 +1,23 @@
+[
+  {
+    "verifier": "gpt-4o-mini",
+    "q": 0.39,
+    "beta": 0.4231,
+    "blind_mass": 0.165,
+    "p_reject": 0.24
+  },
+  {
+    "verifier": "gpt-4.1",
+    "q": 0.39,
+    "beta": 0.0513,
+    "blind_mass": 0.02,
+    "p_reject": 0.46
+  },
+  {
+    "verifier": "gpt-5-mini",
+    "q": 0.39,
+    "beta": 0.0897,
+    "blind_mass": 0.035,
+    "p_reject": 0.36
+  }
+]

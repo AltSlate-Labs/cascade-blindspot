@@ -1,0 +1,36 @@
+==========================================================================
+PHASE-0 SYNTHETIC MECHANISM STUDY  (blind-spot conservation, 20 seeds)
+==========================================================================
+
+Main comparison  rho=0.7, K=10 classes, 20 seeds, 8 rounds (mean +/- sd)
+variant         q0  beta0            q_T           eps_T   q0*b0  dash_T
+corrective   0.438  0.764    0.304+/-0.011   0.249+/-0.010   0.334   0.046
+selftrain    0.438  0.764    0.356+/-0.016   0.296+/-0.014   0.334   0.045
+oracle       0.438  0.000    0.248+/-0.008   0.000+/-0.000   0.000   0.000
+matchoracle  0.438  0.000    0.283+/-0.008   0.000+/-0.000   0.000   0.000
+frozen       0.438  0.764    0.438+/-0.018   0.334+/-0.015   0.334   0.048
+
+Self-training raw error q_t per round (mean) -- H3 check (does it RISE?):
+  0.438  0.404  0.388  0.378  0.371  0.368  0.364  0.359  0.356
+Corrective raw error q_t per round (mean):
+  0.438  0.372  0.345  0.330  0.321  0.318  0.314  0.309  0.304
+
+Verifier-induced excess in raw error (blind spot's cost to the student):
+  corrective  q_T = 0.304
+  matched-oracle (perfect V, train wrong-only) q_T = 0.283
+  excess = +0.021
+
+H2 -- user-facing floor vs blind-spot rate rho (corrective, mean +/- sd):
+  rho=0.00  beta0=0.188  floor(eps)=0.094 +/- 0.005
+  rho=0.20  beta0=0.351  floor(eps)=0.130 +/- 0.006
+  rho=0.40  beta0=0.513  floor(eps)=0.173 +/- 0.008
+  rho=0.60  beta0=0.683  floor(eps)=0.223 +/- 0.009
+  rho=0.80  beta0=0.842  floor(eps)=0.284 +/- 0.010
+  rho=0.95  beta0=0.958  floor(eps)=0.362 +/- 0.014
+
+figures -> /Users/dushyant/Workspace/notes/papers/cascade-blindspot/figures
+done.
+python3 phase0_synthetic.py 2>&1  285.68s user 1.91s system 11% cpu 41:11.38 total
+head -40  0.00s user 0.00s system 0% cpu 41:11.38 total
+
+[exited with code 0]
