@@ -1,0 +1,199 @@
+\begin{thebibliography}{26}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chen et~al.(2023{\natexlab{a}})Chen, Zaharia, and
+  Zou]{chen2023frugalgpt}
+Lingjiao Chen, Matei Zaharia, and James Zou.
+\newblock Frugalgpt: How to use large language models while reducing cost and
+  improving performance.
+\newblock \emph{arXiv:2305.05176}, 2023{\natexlab{a}}.
+
+\bibitem[Dohan et~al.(2022)Dohan, Xu, Lewkowycz, Austin, Bieber, Gontijo~Lopes,
+  Wu, Michalewski, Saurous, Sohl-Dickstein, Murphy, and
+  Sutton]{dohan2022cascades}
+David Dohan, Winnie Xu, Aitor Lewkowycz, Jacob Austin, David Bieber, Raphael
+  Gontijo~Lopes, Yuhuai Wu, Henryk Michalewski, Rif~A. Saurous, Jascha
+  Sohl-Dickstein, Kevin Murphy, and Charles Sutton.
+\newblock Language model cascades.
+\newblock \emph{arXiv:2207.10342}, 2022.
+
+\bibitem[Madaan et~al.(2024)Madaan, Aggarwal, Anand, Potharaju, Mishra, Zhou,
+  Gupta, Rajagopal, Kappaganthu, Yang, Upadhyay, Mausam, and
+  Faruqui]{aggarwal2023automix}
+Aman Madaan, Pranjal Aggarwal, Ankit Anand, Srividya~Pranavi Potharaju, Swaroop
+  Mishra, Pei Zhou, Aditya Gupta, Dheeraj Rajagopal, Karthik Kappaganthu,
+  Yiming Yang, Shyam Upadhyay, Mausam, and Manaal Faruqui.
+\newblock Automix: Automatically mixing language models.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2024.
+
+\bibitem[Wu et~al.(2025)Wu, Wu, Tao, Li, and Sarwate]{intercascade2025}
+Yu~Wu, Shuo Wu, Ye~Tao, Yansong Li, and Anand~D. Sarwate.
+\newblock From deferral to learning: Online in-context knowledge distillation
+  for llm cascades.
+\newblock \emph{arXiv:2509.22984}, 2025.
+
+\bibitem[Sarukkai et~al.(2025)Sarukkai, Gupta, Hong, Gharbi, and
+  Fatahalian]{sarukkai2025deferral}
+Vishnu Sarukkai, Asanshay Gupta, James Hong, Micha{\"e}l Gharbi, and Kayvon
+  Fatahalian.
+\newblock In-context distillation with self-consistency cascades: A simple,
+  training-free way to reduce llm agent costs.
+\newblock \emph{arXiv:2512.02543}, 2025.
+
+\bibitem[Leviathan et~al.(2023)Leviathan, Kalman, and
+  Matias]{leviathan2023speculative}
+Yaniv Leviathan, Matan Kalman, and Yossi Matias.
+\newblock Fast inference from transformers via speculative decoding.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2023.
+
+\bibitem[Chen et~al.(2023{\natexlab{b}})Chen, Borgeaud, Irving, Lespiau, Sifre,
+  and Jumper]{chen2023speculative}
+Charlie Chen, Sebastian Borgeaud, Geoffrey Irving, Jean-Baptiste Lespiau,
+  Laurent Sifre, and John Jumper.
+\newblock Accelerating large language model decoding with speculative sampling.
+\newblock \emph{arXiv:2302.01318}, 2023{\natexlab{b}}.
+
+\bibitem[Gao et~al.(2023)Gao, Schulman, and Hilton]{gao2023scaling}
+Leo Gao, John Schulman, and Jacob Hilton.
+\newblock Scaling laws for reward model overoptimization.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2023.
+
+\bibitem[Skalse et~al.(2022)Skalse, Howe, Krasheninnikov, and
+  Krueger]{skalse2022reward}
+Joar Skalse, Nikolaus H.~R. Howe, Dmitrii Krasheninnikov, and David Krueger.
+\newblock Defining and characterizing reward hacking.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2022.
+
+\bibitem[Manheim and Garrabrant(2018)]{manheim2018goodhart}
+David Manheim and Scott Garrabrant.
+\newblock Categorizing variants of goodhart's law.
+\newblock \emph{arXiv:1803.04585}, 2018.
+
+\bibitem[Ong et~al.(2024)Ong, Almahairi, Wu, Chiang, Wu, Gonzalez, Kadous, and
+  Stoica]{ong2024routellm}
+Isaac Ong, Amjad Almahairi, Vincent Wu, Wei-Lin Chiang, Tianhao Wu, Joseph~E.
+  Gonzalez, M.~Waleed Kadous, and Ion Stoica.
+\newblock Routellm: Learning to route llms with preference data.
+\newblock \emph{arXiv:2406.18665}, 2024.
+
+\bibitem[Gulcehre et~al.(2023)Gulcehre, Paine, Srinivasan, Konyushkova, Weerts,
+  Sharma, Siddhant, Ahern, Wang, Gu, et~al.]{gulcehre2023rest}
+Caglar Gulcehre, Tom~Le Paine, Srivatsan Srinivasan, Ksenia Konyushkova, Lotte
+  Weerts, Abhishek Sharma, Aditya Siddhant, Alex Ahern, Miaosen Wang, Chenjie
+  Gu, et~al.
+\newblock Reinforced self-training (rest) for language modeling.
+\newblock \emph{arXiv:2308.08998}, 2023.
+
+\bibitem[Zelikman et~al.(2022)Zelikman, Wu, Mu, and Goodman]{zelikman2022star}
+Eric Zelikman, Yuhuai Wu, Jesse Mu, and Noah~D. Goodman.
+\newblock Star: Bootstrapping reasoning with reasoning.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2022.
+
+\bibitem[Burns et~al.(2023)Burns, Izmailov, Kirchner, Baker, Gao,
+  Aschenbrenner, Chen, Ecoffet, Joglekar, Leike, Sutskever, and
+  Wu]{burns2023weaktostrong}
+Collin Burns, Pavel Izmailov, Jan~Hendrik Kirchner, Bowen Baker, Leo Gao,
+  Leopold Aschenbrenner, Yining Chen, Adrien Ecoffet, Manas Joglekar, Jan
+  Leike, Ilya Sutskever, and Jeff Wu.
+\newblock Weak-to-strong generalization: Eliciting strong capabilities with
+  weak supervision.
+\newblock \emph{arXiv:2312.09390}, 2023.
+
+\bibitem[Wang et~al.(2023)Wang, Wei, Schuurmans, Le, Chi, Narang, Chowdhery,
+  and Zhou]{wang2022selfconsistency}
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed~Chi, Sharan Narang,
+  Aakanksha Chowdhery, and Denny Zhou.
+\newblock Self-consistency improves chain of thought reasoning in language
+  models.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2023.
+
+\bibitem[Stroebl et~al.(2024)Stroebl, Kapoor, and
+  Narayanan]{stroebl2024inference}
+Benedikt Stroebl, Sayash Kapoor, and Arvind Narayanan.
+\newblock Inference scaling flaws: The limits of llm resampling with imperfect
+  verifiers.
+\newblock \emph{arXiv:2411.17501}, 2024.
+
+\bibitem[Zheng et~al.(2023)Zheng, Chiang, Sheng, Zhuang, Wu, Zhuang, Lin, Li,
+  Li, Xing, Zhang, Gonzalez, and Stoica]{zheng2023judging}
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao
+  Zhuang, Zi~Lin, Zhuohan Li, Dacheng Li, Eric~P. Xing, Hao Zhang, Joseph~E.
+  Gonzalez, and Ion Stoica.
+\newblock Judging llm-as-a-judge with mt-bench and chatbot arena.
+\newblock In \emph{Advances in Neural Information Processing Systems (NeurIPS),
+  Datasets and Benchmarks Track}, 2023.
+
+\bibitem[Panickssery et~al.(2024)Panickssery, Bowman, and
+  Feng]{panickssery2024selfpreference}
+Arjun Panickssery, Samuel~R. Bowman, and Shi Feng.
+\newblock Llm evaluators recognize and favor their own generations.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2024.
+
+\bibitem[Shumailov et~al.(2024)Shumailov, Shumaylov, Zhao, Papernot, Anderson,
+  and Gal]{shumailov2024collapse}
+Ilia Shumailov, Zakhar Shumaylov, Yiren Zhao, Nicolas Papernot, Ross Anderson,
+  and Yarin Gal.
+\newblock Ai models collapse when trained on recursively generated data.
+\newblock \emph{Nature}, 631:\penalty0 755--759, 2024.
+
+\bibitem[Alemohammad et~al.(2024)Alemohammad, Casco-Rodriguez, Luzi, Humayun,
+  Babaei, LeJeune, Siahkoohi, and Baraniuk]{alemohammad2024selfconsuming}
+Sina Alemohammad, Josue Casco-Rodriguez, Lorenzo Luzi, Ahmed~Imtiaz Humayun,
+  Hossein Babaei, Daniel LeJeune, Ali Siahkoohi, and Richard~G. Baraniuk.
+\newblock Self-consuming generative models go mad.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+
+\bibitem[Arazo et~al.(2020)Arazo, Ortego, Albert, O'Connor, and
+  McGuinness]{arazo2020pseudo}
+Eric Arazo, Diego Ortego, Paul Albert, Noel~E. O'Connor, and Kevin McGuinness.
+\newblock Pseudo-labeling and confirmation bias in deep semi-supervised
+  learning.
+\newblock In \emph{International Joint Conference on Neural Networks (IJCNN)},
+  2020.
+
+\bibitem[Huang et~al.(2024)Huang, Chen, Mishra, Zheng, Yu, Song, and
+  Zhou]{huang2024selfcorrect}
+Jie Huang, Xinyun Chen, Swaroop Mishra, Huaixiu~Steven Zheng, Adams~Wei Yu,
+  Xinying Song, and Denny Zhou.
+\newblock Large language models cannot self-correct reasoning yet.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+
+\bibitem[El-Yaniv and Wiener(2010)]{elyaniv2010selective}
+Ran El-Yaniv and Yair Wiener.
+\newblock On the foundations of noise-free selective classification.
+\newblock \emph{Journal of Machine Learning Research}, 11:\penalty0 1605--1641,
+  2010.
+
+\bibitem[Mozannar and Sontag(2020)]{mozannar2020defer}
+Hussein Mozannar and David Sontag.
+\newblock Consistent estimators for learning to defer to an expert.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2020.
+
+\bibitem[Hendrycks et~al.(2021)Hendrycks, Burns, Kadavath, Arora, Basart, Tang,
+  Song, and Steinhardt]{hendrycks2021math}
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
+  Tang, Dawn Song, and Jacob Steinhardt.
+\newblock Measuring mathematical problem solving with the math dataset.
+\newblock In \emph{Advances in Neural Information Processing Systems (NeurIPS),
+  Datasets and Benchmarks Track}, 2021.
+
+\bibitem[Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser,
+  Plappert, Tworek, Hilton, Nakano, Hesse, and Schulman]{cobbe2021gsm8k}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz
+  Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano,
+  Christopher Hesse, and John Schulman.
+\newblock Training verifiers to solve math word problems.
+\newblock \emph{arXiv:2110.14168}, 2021.
+
+\end{thebibliography}

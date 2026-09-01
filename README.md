@@ -98,11 +98,15 @@ wrong-answer subset only, so its intervals are wider than the raw error rate's.
 ## Build the paper
 
 ```sh
-typst compile paper.typ         # → paper.pdf (20 pages)
+typst compile paper.typ         # → paper.pdf (21 pages)
 ```
 
 First build fetches two Typst packages from the registry (`@preview/arkheion:0.1.0`,
 `@preview/cetz:0.3.4`) and caches them; later builds are offline.
+
+A LaTeX port for arXiv lives in [`arxiv/`](arxiv/) (`pdflatex paper.tex`), bundled as
+`cascade-blindspot-arxiv.tar.gz` for upload — arXiv's pipeline compiles TeX source
+rather than accepting the Typst PDF.
 
 ## Citation
 
