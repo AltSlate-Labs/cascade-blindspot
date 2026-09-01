@@ -3,6 +3,27 @@
 **Measuring the Reliability Cost of Cost-Saving Cascades**
 Dushyant Rajput · AltSlate Labs LLP
 
+<p>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-2e7d32?style=flat-square"></a>
+  <a href="paper.pdf"><img alt="Paper (PDF)" src="https://img.shields.io/badge/paper-PDF-b5341f?style=flat-square"></a>
+  <img alt="Built with Typst" src="https://img.shields.io/badge/built%20with-Typst-157a86?style=flat-square">
+  <img alt="Python 3.11" src="https://img.shields.io/badge/python-3.11-3776ab?style=flat-square">
+  <img alt="Experiments on 1x H100" src="https://img.shields.io/badge/experiments-1%C3%97H100-76b900?style=flat-square">
+</p>
+
+<p>
+  <img alt="blind spot" src="https://img.shields.io/badge/blind%20spot-conserved-b5341f?style=flat-square">
+  <img alt="LLM cascades" src="https://img.shields.io/badge/LLM-cascades-157a86?style=flat-square">
+  <img alt="reward overoptimization" src="https://img.shields.io/badge/reward-overoptimization-57606a?style=flat-square">
+  <img alt="LLM-as-judge" src="https://img.shields.io/badge/LLM--as--judge-verifier-6f42c1?style=flat-square">
+  <img alt="tasks" src="https://img.shields.io/badge/tasks-GSM8K%20%2B%20hard%20MATH-2e7d32?style=flat-square">
+</p>
+
+<p align="center">
+  <img src="assets/blindspot.svg" width="880"
+       alt="A self-improving cascade is trained only on errors its verifier can see, so it inherits the verifier's blind spot: user-facing error floors while the dashboard stays flat.">
+</p>
+
 Code and data for the paper. A cost-saving inference cascade answers most queries
 with a cheap *student* model and escalates a hard tail to a frontier *verifier*. A
 natural extension closes the loop — fine-tune the student on the verifier's
