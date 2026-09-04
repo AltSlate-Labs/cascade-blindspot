@@ -50,6 +50,7 @@
   title: "Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of Cost-Saving Cascades",
   authors: (
     (name: "Dushyant Rajput", email: "dushyant@altslate.com", affiliation: "AltSlate Labs LLP"),
+    (name: "Nirdesh Chauhan", email: "nirdesh@altslate.com", affiliation: "AltSlate Labs LLP"),
   ),
   abstract: [
     Inference cascades cut cost by answering most queries with a cheap model and
