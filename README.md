@@ -1,7 +1,7 @@
 # Cheap Verifiers, Large Blind Spots
 
 **Measuring the Reliability Cost of Cost-Saving Cascades**
-Dushyant Rajput · Nirdesh Chauhan · AltSlate Labs LLP
+Dushyant Rajput · Nirdesh Chauhan · Siddharth Kosaraju · AltSlate Labs LLP
 
 <p>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-2e7d32?style=flat-square"></a>
@@ -113,7 +113,7 @@ rather than accepting the Typst PDF.
 ```bibtex
 @misc{rajput2026blindspot,
   title  = {Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of Cost-Saving Cascades},
-  author = {Rajput, Dushyant and Chauhan, Nirdesh},
+  author = {Rajput, Dushyant and Chauhan, Nirdesh and Kosaraju, Siddharth},
   year   = {2026},
   note   = {AltSlate Labs LLP},
   url    = {https://github.com/AltSlate-Labs/cascade-blindspot}
