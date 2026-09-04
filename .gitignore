@@ -13,3 +13,6 @@ __pycache__/
 *.fdb_latexmk
 *.synctex.gz
 arxiv/paper.pdf
+
+# build/upload bundles
+*.tar.gz
